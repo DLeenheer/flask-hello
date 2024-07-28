@@ -12,4 +12,4 @@ def hello_world():
 def testing():
     conn = psycopg2.connect("postgresql://hello_dana_user:2lIRg498XAKrdhUz9MWzGFGZ2ZWKr1Cb@dpg-cqjcbg6ehbks73c9kia0-a/hello_dana")
     conn.close()
-    return "Database Connection Successful"
+    return 'Database Connection Successful'
